@@ -1,0 +1,37 @@
+var http=require('http');
+var fs=require('fs');
+
+var server=http.createServer(function(req, res){
+    if(request.url='/'){
+	fs.readFile(__dirname+'html/index.html',function(err,index){
+	    if(err){
+		vErro();
+	    }else{
+		response.writeHeader(200,{'Content-Type':'text/html'});
+		response.write(index);
+		response.end();
+	    }
+	});
+    }else{
+	fs.readFile(__dirname+'html/404.html',function(err2,notF){
+	    if(err2){
+		vErro();
+	    }else{
+		response.writeHeader(200,{'Content-Type':'text/html'});
+		response.write(notF);
+		response.end();
+	    }
+
+	});
+    }
+});
+
+function vError(){
+   fs.readFile(__dirname+'html/erro.html',function(err,erro){
+       response.writeHeader(200,{'Content-Type':'text/html'});
+       response.write(erro);
+       response.end();
+   });
+}
+
+server.listen(3000);

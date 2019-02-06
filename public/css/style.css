@@ -1,0 +1,106 @@
+/* cores */
+html, body, section, div, nav, ul, li, a, p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#me, footer {
+  background: #0061ff;
+}
+
+/* Code to main menu */
+header {
+  height: 80px;
+}
+
+nav {
+  background: #aa00ff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px !important;
+}
+
+.main-menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px !important;
+}
+
+.main-menu ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 80px !important;
+}
+
+li > a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid #ff6a00;
+  transition: 0.4s;
+}
+li > a:hover {
+  border-bottom: 3px solid #ff6a00;
+}
+
+.father-cards-d, .father-cards-d2 {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card, .article {
+  width: 30%;
+  height: auto;
+}
+
+.father-cards-d2 .article {
+  width: 45%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100vh;
+}
+section h2 {
+  margin: 5rem auto 2rem;
+}
+
+header, footer {
+  height: 80px;
+}
+
+/* Code do Arrange the alignment in #ME */
+#me {
+  display: flex;
+  flex-direction: row;
+}
+
+#me div {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+#me img {
+  width: 20%;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

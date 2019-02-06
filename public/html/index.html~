@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vucamberg - Web Developer</title>
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="main-menu">
+	<ul>
+	  <li><a href="#" title="Home">Home</a></li>
+	  <li><a href="#jobs" title="Jobs">Jobs</a></li>
+	  <li><a href="#portfolio" title="Portfolio">Portfolio</a></li> 
+	  <li><a href="#school" title="School">School</a></li>
+	  <li><a href="#tech" title="Technologies">Technologies</a></li>
+	  <li><a href="#lang" title="Languages">Languages</a></li>
+	</ul>
+      </nav>
+    </header>
+    
+    <section id="me">
+      <div>
+	<h1>Vucamberg Santos</h1>
+	<p>
+	  Estudante na área de Engenharia, sou uma pessoa curiosa e cooperativa, passo meu tempo lendo sobre IT e universo,
+	  Arduíno e com meu amado filho.
+	</p>
+      </div>
+      <img src="" title="Me" alt="Vucamberg Santos">
+    </section>
+    
+    <section id="jobs">
+      <div>
+	<h2>Jobs</h2>
+      </div>
+      <div class="father-cards-d">
+	<div class="article">
+	  <h3> Name Business - <i>Function</i></h3>
+	  <p> Text with the description of the work</p>
+	  <p> Period in the Business</p>
+	</div>
+	
+	<div class="article">
+	  <h3> Name Business - <i>Function</i></h3>
+	  <p> Text with the description of the work</p>
+	  <p> Period in the Business</p>
+	</div>
+	
+	<div class="article">
+	  <h3> Name Business - <i>Function</i></h3>
+	  <p> Text with the description of the work</p>
+	  <p> Period in the Business</p>
+	</div>
+	
+      </div>
+     
+    </section>
+    
+    <section id="portfolio">
+      <div>
+	<h2>Portfolio</h2>
+      </div>
+
+      <div class="card">
+	<h3> Title</h3>
+	<img src="" title="card" alt="card">
+	<p> Some Text</p>
+      </div>
+     
+      <div class="card">
+	<h3> Title</h3>
+	<img src="" title="card" alt="card">
+	<p> Some Text</p>
+      </div>
+     
+      <div class="card">
+	<h3> Title</h3>
+	<img src="" title="card" alt="card">
+	<p> Some Text</p>
+      </div>
+     
+    </section>
+
+    <section id="school">
+      <h2>School</h2>
+
+      
+      <div class="article">
+	<h3> Name School </h3>
+	<p> Text with the description of the School</p>
+	<p> Date in the School</p>
+      </div>
+      
+      <div class="article">
+	<h3> Name School </h3>
+	<p> Text with the description of the School</p>
+	<p> Date in the School</p>
+      </div>
+
+    </section>
+
+    <section id="tech">
+      <h3>Technologies</h3>
+      <ul>
+	<li> HTML
+	  <div></div>
+	</li>
+	<li> CSS
+	  <div></div>
+	</li>
+	<li> JavaScript
+	  <div></div>
+	</li>
+      </ul>
+      
+    </section>
+
+    <section id="lang">
+      <h3>Languages</h3>
+      <ul>
+	<li> Inglês
+	  <div></div>
+	</li>
+	<li> Espanhol
+	  <div></div>
+	</li>
+	<li> Alemão
+	  <div></div>
+	</li>
+      </ul>
+      
+    </section>
+            
+    <footer>
+      <p>Vucamberg | 2019</p>
+    </footer>
+  </body>
+</html>

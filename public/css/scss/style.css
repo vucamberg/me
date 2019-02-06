@@ -1,0 +1,11 @@
+/* cores */
+html, body, section, div {
+  margin: 0;
+  padding: 0;
+}
+
+.me, footer {
+  background: #0061ff;
+}
+
+/*# sourceMappingURL=style.css.map */
