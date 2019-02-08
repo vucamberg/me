@@ -61,47 +61,53 @@
       <div>
 	<h2>Portfolio</h2>
       </div>
+      <div class="father-cards-d">
+	<div class="card">
+	  <h3> Title</h3>
+	  <img src="" title="card" alt="card">
+	  <p> Some Text</p>
+	</div>
+	
+	<div class="card">
+	  <h3> Title</h3>
+	  <img src="" title="card" alt="card">
+	  <p> Some Text</p>
+	</div>
+	
+	<div class="card">
+	  <h3> Title</h3>
+	  <img src="" title="card" alt="card">
+	  <p> Some Text</p>
+	</div>
 
-      <div class="card">
-	<h3> Title</h3>
-	<img src="" title="card" alt="card">
-	<p> Some Text</p>
-      </div>
-     
-      <div class="card">
-	<h3> Title</h3>
-	<img src="" title="card" alt="card">
-	<p> Some Text</p>
-      </div>
-     
-      <div class="card">
-	<h3> Title</h3>
-	<img src="" title="card" alt="card">
-	<p> Some Text</p>
       </div>
      
     </section>
 
     <section id="school">
-      <h2>School</h2>
-
-      
-      <div class="article">
-	<h3> Name School </h3>
-	<p> Text with the description of the School</p>
-	<p> Date in the School</p>
-      </div>
-      
-      <div class="article">
-	<h3> Name School </h3>
-	<p> Text with the description of the School</p>
-	<p> Date in the School</p>
+      <div>
+	<h2>School</h2>
       </div>
 
+      <div class="father-cards-d2">
+	<div class="article">
+	  <h3> Name School </h3>
+	  <p> Text with the description of the School</p>
+	  <p> Date in the School</p>
+	</div>
+	
+	<div class="article">
+	  <h3> Name School </h3>
+	  <p> Text with the description of the School</p>
+	  <p> Date in the School</p>
+	</div>
+      </div>
     </section>
 
     <section id="tech">
-      <h3>Technologies</h3>
+      <div>
+	<h2>Technologies</h2>
+      </div>
       <ul>
 	<li> HTML
 	  <div></div>
@@ -117,7 +123,9 @@
     </section>
 
     <section id="lang">
-      <h3>Languages</h3>
+      <div>
+	<h2>Languages</h2>
+      </div>
       <ul>
 	<li> Inglês
 	  <div></div>

@@ -90,6 +90,12 @@ header, footer {
   flex-direction: row;
 }
 
+.me {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-around;
+}
+
 #me div {
   width: 70%;
   display: flex;
@@ -100,6 +106,52 @@ header, footer {
 
 #me img {
   width: 20%;
+}
+
+/* Section JOBS */
+#jobs {
+  background: #00ff3b;
+}
+
+.name-bus {
+  font-weight: 300;
+}
+
+.father-cards-d {
+  color: #fff;
+  text-align: center;
+}
+.father-cards-d .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75%;
+  background: #ff8833;
+  border-radius: 5px;
+}
+.father-cards-d .article h3 {
+  color: #fff;
+  margin: 0;
+  background: #0061ff;
+  height: 60px;
+}
+.father-cards-d .article p {
+  text-align: left;
+}
+.father-cards-d .article p:nth-child(3) {
+  text-align: center;
+}
+
+/*My FrameWork CSS *-* */
+.v-cont {
+  min-width: 85%;
+  width: 85%;
+  margin: 1rem auto;
+}
+
+.v-line {
+  display: flex;
+  flex-direction: row;
   margin: auto;
 }
 

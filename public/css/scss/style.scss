@@ -1,4 +1,5 @@
 /* cores */
+$zer-color:#fff;
 $pri-color:#0061ff;
 $sec-color:#aa00ff;
 $ter-color:#00ff3b;
@@ -7,6 +8,8 @@ $fiv-color:#ff0000;
 
 $pri-font-color:#fff;
 $sec-font-color:#000;
+
+$aux-color: #cecece;
 
 html, body, section, div, nav, ul, li, a, p{
     margin:0;
@@ -99,6 +102,11 @@ header,footer{
     display:flex;
     flex-direction:row;
 }
+.me{
+    display:flex;
+    flex-direction:row !important;
+    justify-content:space-around;
+}
 
 #me div{
     width:70%;
@@ -109,5 +117,55 @@ header,footer{
 }
 #me img{
     width:20%;
+}
+
+
+/* Section JOBS */
+
+#jobs{
+    background:$ter-color;
+}
+
+.name-bus{
+    font-weight:300;
+}
+
+.father-cards-d{
+    color:$pri-font-color;
+    text-align:center;
+    .article{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	height:75%;
+	background:lighten($fou-color,10%);
+	border-radius:5px;
+	h3{
+	    color:$pri-font-color;
+	    margin:0;
+	    background:$pri-color;
+	    height:60px;
+	}
+	p{
+	    text-align:left;
+	    &:nth-child(3){
+		text-align:center;
+	    }
+	}
+    }
+}
+
+
+/*My FrameWork CSS *-* */
+
+.v-cont{
+    min-width:85%;
+    width:85%;
+    margin: 1rem auto;
+}
+
+.v-line{
+    display:flex;
+    flex-direction:row;
     margin:auto;
 }
